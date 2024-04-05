@@ -1,8 +1,16 @@
 from typing import Dict, Type
+import abc
+
+from inventory_report.product import Product
 
 
-class Importer:
-    pass
+class Importer(abc.ABC):
+    def __init__(self, path: str):
+        self.path = path
+
+    @abc.abstractmethod
+    def import_data(self) -> list[Product]:
+        pass
 
 
 class JsonImporter:
