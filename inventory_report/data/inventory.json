@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "product_name": "Borracha",
+        "company_name": "Papelaria Solar",
+        "manufacturing_date": "2021-07-04",
+        "expiration_date": "2029-02-09",
+        "serial_number": "FR48",
+        "storage_instructions": "Ao abrigo de luz solar"
+    }
+]
